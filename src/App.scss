@@ -1,0 +1,16 @@
+.App {
+  height: 100%;
+  &__navbar-wrapper{
+    position:relative;
+    width: 100%;
+    top:0;
+    margin-bottom: 15px;
+  }
+  
+  &__main-content-wrapper{
+    height: calc(100% - 83px);
+    position:absolute;
+    width: 100%;
+  }
+}
+

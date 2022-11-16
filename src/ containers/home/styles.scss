@@ -1,0 +1,98 @@
+.home{
+    z-index: 1;
+    height: 100%;
+    display: flex;
+    align-items:center ;
+    justify-items: center;
+    left:0;
+    right:0;
+    top: 45%;
+    position: fixed;
+    flex-direction: column;
+    
+  
+    &__text-wrapper{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       
+       
+
+      h1{
+        color: var(--selected-theme-main-color);
+        margin: 0px;
+        font-weight: 400;
+        width: 100%;
+        font-size: 3rem;
+        line-height: 2;
+        position: relative;
+        
+      }
+
+
+     
+    }
+    .contact-me{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 10px;
+        align-items:center ;
+        justify-items: center;
+        
+        &__buttons-wrapper{
+           display: flex;
+           gap: 10px; 
+           
+           button ,a{
+               cursor: pointer;
+               padding: 8px 50px;
+               font-size: 1rem;
+               background: transparent;
+               color: var(--selected-theme-main-color);
+               border: 1.5px solid var(--selected-theme-main-color);
+               border-radius: 4px;
+               font-weight: 500;
+               
+
+                &:hover{
+                    color: #000000;
+                    background: var(--selected-theme-main-color);
+             
+                }
+           }
+        }
+
+        &__socials-wrapper{
+            display: flex;
+            gap: 10px;
+
+            svg{
+                color: var(--selected-theme-main-color);
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width : 550px){
+    .home__text-wrapper h1{
+        font-size: 2rem;
+        line-height: 3rem;
+    }
+}
+
+@media only screen and  (min-width : 551px) and (max-width : 768px){
+    .home__text-wrapper h1{
+        font-size: 2rem;
+        line-height:3rem;
+    }
+}
+
+@media only screen and  (min-width : 769px) and (max-width : 990px){
+    .home__text-wrapper h1{
+        font-size: 3rem;
+        line-height: 4rem;
+    }
+}
+

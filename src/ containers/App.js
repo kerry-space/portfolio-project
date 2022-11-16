@@ -17,7 +17,7 @@ import TodoItem from './ containers/portfolio/allProject/todoList/TodoItem';
 import Test from './Test';
 import ContentLayout from './ containers/portfolio/allProject/themepage/ContentLayout';
 import {ThemeProvider} from "./ containers/portfolio/allProject/themepage/ThemeProvider";
-
+import ShoppingCard from './ containers/portfolio/allProject/shoppingCard/ShoppingCard';
 
 
 function App() {
@@ -58,7 +58,7 @@ function App() {
           <Route path="/todolist" element={<TodoItem/>} />
           <Route path="/test" element={<Test/>} />
           <Route path="/theme" element={<ContentLayout/>} />
-    
+          <Route path='/shoppingcard' element={<ShoppingCard/>} />
         </Routes>
       </div>
 

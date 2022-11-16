@@ -1,0 +1,39 @@
+.theme{
+    display: flex;
+    flex-direction: column;
+    
+
+    
+}
+
+.button-wrapper{
+    cursor: pointer;
+    display: flex;
+    justify-content: flex-end;
+    border-bottom: 2px solid black;
+    padding: 10px 60px 0px 0px;
+    height: 80px;
+    background-color:  #EEEBEF;
+   
+
+    
+
+}
+
+
+.content-wrapper{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: calc(100% - 80px);
+ 
+    
+    h1, p, footer{
+        margin: 30px 0px 200px 0px;
+    }
+    
+   
+
+}
