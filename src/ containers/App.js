@@ -49,16 +49,16 @@ function App() {
         <Theme />
         <Routes>
           {/*create all routes*/}
-          <Route path='/' element={<Home/>} />
-          <Route path='/about' element={<About/>} />
-          <Route path='/skill' element={<Skills/>} />
-          <Route path='/portfolio' element={<Portfolio/>} /> 
-          <Route path='/contact' element={<Contact/>} /> 
+          <Route path='/portfolio-project' element={<Home/>} />
+          <Route path='/portfolio-project/about' element={<About/>} />
+          <Route path='/portfolio-project/skill' element={<Skills/>} />
+          <Route path='/portfolio-project/portfolio' element={<Portfolio/>} /> 
+          <Route path='/portfolio-project/contact' element={<Contact/>} /> 
           
-          <Route path="/todolist" element={<TodoItem/>} />
-          <Route path="/test" element={<Test/>} />
-          <Route path="/theme" element={<ContentLayout/>} />
-          <Route path='/shoppingcard' element={<ShoppingCard/>} />
+          <Route path="/portfolio-project/todolist" element={<TodoItem/>} />
+          <Route path="/portfolio-project/test" element={<Test/>} />
+          <Route path="/portfolio-project/theme" element={<ContentLayout/>} />
+          <Route path='/portfolio-project/shoppingcard' element={<ShoppingCard/>} />
         </Routes>
       </div>
 
