@@ -44,7 +44,6 @@
     "webpack-dev-server": "^4.10.0"
   },
   "scripts": {
-   
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -70,6 +69,7 @@
   },
   "devDependencies": {
     "gh-pages": "^4.0.0",
-    "html-webpack-plugin": "^5.5.0"
+    "html-webpack-plugin": "^5.5.0",
+    "netlify-cli": "^12.2.4"
   }
 }
