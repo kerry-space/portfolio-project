@@ -39,8 +39,8 @@ const Home = () => {
       >
         <div className="contact-me">
           <div className="contact-me__buttons-wrapper">
-            <button>About Me</button>
-            <a href="/">Download App</a>
+            <Link to="about">About Me</Link>
+            <Link to="#">Download App</Link>
           </div>
           <div className="contact-me__socials-wrapper">
             <Link to="">
