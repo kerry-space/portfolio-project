@@ -54,7 +54,7 @@ const About = () => {
             I am a type of person who has a natural curiosity for exploring the world, space, and human development. I am an individual who believes in the potential of sustainable energy, the Internet, artificial intelligence, and multiplanetary design of life to create a better future for all of us.
             I am committed to my field of software technology and am always learning and updating myself with the latest technologies. I am also a creative thinker and am  developing several SaaS ideas in my field.<br/><br/>
             In addition to my work in software engineering, I have set my sights on a larger goal, starting a space company one day. Am also very passionate about exploring the unknown, pushing the boundaries of technology, and contributing to humanity's future.<br/>
-            Overall, I am a driven individual who is passionate about making a difference in the world. My dedication to sustainable energy, technology, and human development makes me a valuable asset to any team i  works with.
+            Overall, I am a driven individual who is passionate about making a difference in the world. My dedication to sustainable energy, technology, and human development makes me a valuable asset to any team i  works with.  
             make better
 
             </p>
