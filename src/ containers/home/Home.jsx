@@ -22,7 +22,7 @@ const Home = () => {
           <h1>
             Hello, I'm Kerry
             <br />
-            Full Stack Blockchain Developer.
+            Full-Stack java Developer.
           </h1>
         </Animate>
       </div>
